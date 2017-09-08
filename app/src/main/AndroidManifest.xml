@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.railyatra.railyatra">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/railyatra"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashActivity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mainActivity.MainActivity" />
+        <activity android:name=".trainBetweenStationActivity.TrainBetweenStationActivity" />
+        <activity android:name=".trainBetweenStationActivity.TrainBetweenStationInfo" />
+        <activity android:name=".pnrStatusActivity.PnrStatusActivity" />
+        <activity android:name=".pnrStatusActivity.PnrStatusInfo" />
+        <activity android:name=".liveTrainStatusActivity.LiveTrainStatusActivity" />
+        <activity android:name=".liveTrainStatusActivity.LiveTrainStatusInfo" />
+        <activity android:name=".seatAvailabilityActivity.SeatAvailabilityActivity" />
+        <activity android:name=".seatAvailabilityActivity.SeatAvailabilityInfo" />
+
+        <activity android:name=".trainRunningDayActivity.TrainRunningDayActivity" />
+        <activity android:name=".trainRunningDayActivity.TrainRunningDayInfo" />
+        <activity android:name=".trainFareEnquiryActivity.TrainFareEnquiryActivity" />
+        <activity android:name=".trainFareEnquiryActivity.TrainFareEnquiryInfo" />
+        <activity android:name=".trainArrivalActivity.TrainArrivalActivity" />
+        <activity android:name=".trainArrivalActivity.TrainArrivalInfo" />
+        <activity android:name=".aboutUsActivity.AboutUsActivity"></activity>
+    </application>
+
+</manifest>

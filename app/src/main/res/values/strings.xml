@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RailYatra</string>
+    <string name="searchSourceStation">Source Station</string>
+    <string name="searchDesStation">Destination Station</string>
+    <string name="exit">Tap to home</string>
+    <string-array name="quota_array">
+        <item>GeneralQuota(GN)</item>
+        <item>DefenceQuota(DF)</item>
+        <item>TatkalQuota(CK)</item>
+        <item>PremiumTatkal Quota(PT)</item>
+        <item>HandicappedQuota(HP)</item>
+        <item>ReservationCancellation(RAC)</item>
+        <item>LowerBerth(LB)</item>
+    </string-array>
+
+    <string-array name="class_array">
+        <item>AC1Tier(1A)</item>
+        <item>AC2Tier(2A)</item>
+        <item>AC3Tier(3A)</item>
+        <item>ChairCar(CC)</item>
+        <item>SleeperClass(SL)</item>
+        <item>SecondSitting(2S)</item>
+    </string-array>
+
+
+    <string-array name="hour_array">
+        <item>Hour(1)</item>
+        <item>Hour(2)</item>
+    </string-array>
+
+</resources>
